@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Study Buddy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f8ff;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #4a90e2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 0 0 10px 10px;
+        }
+        
+        section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-left: 4px solid #4a90e2;
+            background-color: #f9f9f9;
+        }
+        
+        h2 {
+            color: #4a90e2;
+            border-bottom: 2px solid #4a90e2;
+            padding-bottom: 5px;
+        }
+        
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        
+        .todo-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .todo-list li {
+            background: #e8f4fd;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .todo-list input[type="checkbox"] {
+            margin-right: 10px;
+            transform: scale(1.2);
+        }
+        
+        .quote {
+            font-style: italic;
+            text-align: center;
+            font-size: 1.2em;
+            color: #666;
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #4a90e2;
+            color: white;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        
+        a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Student Study Buddy</h1>
+        <p>Your simple companion for productive studying</p>
+    </header>
+    <main>
+        <section id="welcome">
+            <h2>Welcome!</h2>
+            <p>This is a simple HTML and CSS-based study buddy website to help you stay organized and motivated. Use it as a quick reference for study techniques, tips, and a basic to-do list. For timers or dynamic features, pair it with your phone or browser
+                tools.</p>
+        </section>
+
+        <section id="tips">
+            <h2>Study Tips</h2>
+            <ul>
+                <li>Set specific goals for each study session (e.g., "Read Chapter 3").</li>
+                <li>Take short breaks to avoid burnout—try the Pomodoro Technique below.</li>
+                <li>Study in a quiet, distraction-free environment.</li>
+                <li>Review notes actively by summarizing in your own words.</li>
+                <li>Stay hydrated and get enough sleep for better focus.</li>
+            </ul>
+        </section>
+
+        <section id="pomodoro">
+            <h2>Pomodoro Technique</h2>
+            <p>A simple time management method: Study for 25 minutes, then take a 5-minute break. After 4 cycles, take a longer 15-30 minute break. Use a timer app on your phone since this site is static.</p>
+            <ul>
+                <li>25 min: Focused work</li>
+                <li>5 min: Break (stretch, walk)</li>
+                <li>Repeat 4x, then long break</li>
+            </ul>
+        </section>
+
+        <section id="todo">
+            <h2>Today's To-Do List</h2>
+            <p>Check off tasks as you complete them (note: this is static—refreshing the page resets it).</p>
+            <ul class="todo-list">
+                <li><input type="checkbox"> Review math notes</li>
+                <li><input type="checkbox"> Complete history essay</li>
+                <li><input type="checkbox"> Practice vocabulary words</li>
+                <li><input type="checkbox"> Read science chapter</li>
+                <li><input type="checkbox"> Add your own task here</li>
+            </ul>
+        </section>
+
+        <section id="resources">
+            <h2>Helpful Resources</h2>
+            <ul>
+                <li><a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a> - Free lessons on various subjects.</li>
+                <li><a href="https://quizlet.com/" target="_blank">Quizlet</a> - Flashcards and quizzes.</li>
+                <li><a href="https://www.pomodoro-timer.com/" target="_blank">Online Pomodoro Timer</a> - For timed sessions.</li>
+                <li><a href="https://owl.purdue.edu/owl/general_writing/the_writing_process/index.html" target="_blank">Purdue OWL</a> - Writing and study guides.</li>
+            </ul>
+        </section>
+
+        <div class="quote">
+            "The beautiful thing about learning is that no one can take it away from you." – B.B. King
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Student Study Buddy. Keep studying smart!</p>
+    </footer>
+</body>
+
+</html>
