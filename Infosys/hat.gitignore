@@ -1,0 +1,18 @@
+# Ignore dataset files
+*.csv
+*.xlsx
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore virtual environments
+venv/
+.env/
